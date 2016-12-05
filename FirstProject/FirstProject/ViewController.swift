@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var MapImageView: UIImageView!
+    @IBOutlet weak var WelcomeButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +23,9 @@ class ViewController: UIViewController {
     }
 
 
+  
+    @IBAction func OnPressed(_ sender: Any) {
+        MapImageView.isHidden=false
+    }
 }
 

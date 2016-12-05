@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					B731C4CC1DF5DB9D00E8E7DC = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = E54B776FD4;
 						ProvisioningStyle = Automatic;
 					};
 					B731C4E01DF5DB9E00E8E7DC = {
@@ -412,7 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E54B776FD4;
 				INFOPLIST_FILE = FirstProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FirstProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +427,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E54B776FD4;
 				INFOPLIST_FILE = FirstProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FirstProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
